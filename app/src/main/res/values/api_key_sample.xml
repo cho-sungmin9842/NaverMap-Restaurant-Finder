@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  api_key.xml 의 샘플입니다. (실제 키는 절대 이 파일에 넣지 마세요)
+
+  사용 방법
+    1) 이 파일을 같은 폴더에 api_key.xml 이름으로 복사합니다.
+    2) 복사한 api_key.xml 의 <resources> 안에 아래 세 줄을 넣고,
+       YOUR_... 값을 본인이 발급받은 키로 교체합니다.
+    3) api_key.xml 은 .gitignore 에 등록되어 있어 Git 에 올라가지 않습니다.
+
+  <string name="naver_client_id">YOUR_NAVER_MAP_CLIENT_ID</string>
+  <string name="naver_search_client_id">YOUR_NAVER_SEARCH_CLIENT_ID</string>
+  <string name="naver_search_client_secret">YOUR_NAVER_SEARCH_CLIENT_SECRET</string>
+
+  각 값의 의미
+    naver_client_id            : 네이버 클라우드 플랫폼 Maps (Mobile Dynamic Map) Client ID
+    naver_search_client_id     : 네이버 개발자 센터 검색 API Client ID
+    naver_search_client_secret : 네이버 개발자 센터 검색 API Client Secret
+
+  주의: 이 샘플 파일은 res/values 안에서 함께 빌드되므로, 위 세 줄을 주석 밖
+        (resources 안)에 그대로 두면 api_key.xml 과 이름이 중복되어 빌드 오류가 납니다.
+-->
+<resources>
+</resources>
